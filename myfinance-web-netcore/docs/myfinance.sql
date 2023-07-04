@@ -7,7 +7,7 @@ GO
 
 /* Estrutura do Banco de dados */
 CREATE TABLE planoconta(
-	id int IDENTITY NOT NULL,
+	id int IDENTITY(1,1) NOT NULL,
 	descricao VARCHAR(50) NOT NULL,
 	tipo CHAR(1),
 	PRIMARY KEY (id)
