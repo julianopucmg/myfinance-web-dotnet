@@ -54,10 +54,15 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.0-previ
 ```
 
 ## Conexão com o banco de dados
+
+O script de criação do banco de dados encontra-se em doc/myfinance.sql
+
 String de conexão com SQL SERVER. Aterar no arquivo MyFinanceDbContext.cs para o banco:
 ```
 var connectionString = "Server=localhost;Database=myfinance;Trusted_Connection=True;TrustServerCertificate=True";
 ```
+
+
 
 ## Execute a aplicação
 ```
