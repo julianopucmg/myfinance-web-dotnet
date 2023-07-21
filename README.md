@@ -4,6 +4,7 @@
 
 - [@julianopucmg](https://github.com/julianopucmg)
 - [@Silva01](https://github.com/Silva01)
+- Renato Silva Sampaio
 
 
 # MyFinance Web
