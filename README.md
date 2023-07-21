@@ -4,19 +4,16 @@
 
 - [@julianopucmg](https://github.com/julianopucmg)
 - [@Silva01](https://github.com/Silva01)
-- Renato Silva Sampaio
+- [@renatossampaio](https://github.com/renatossampaio)
 
 
 # MyFinance Web
 
-Projeto desenvolvido para a disciplina de Práticas de Implementação e Evolução de Software da PUC-Minas. O MyFinance Web é um sistema para controlas as finanças pessoais.
+Projeto desenvolvido para a disciplina de Práticas de Implementação e Evolução de Software da PUC-Minas. O MyFinance Web é um sistema para controlar as suas finanças pessoais.
 
 ## Descrição
 O MyFinance Web é uma aplicação web que permite aos usuários gerenciar suas finanças pessoais de forma eficiente. A aplicação oferece recursos para controlar despesas e receitas, no seu plano de contas, assim como as transações financeiras, visualizar relatórios e gráficos.
 
-![Screenshot](docs/tela_plano.png)
-
-![Screenshot](docs/tela_transacao.png)
 
 ## Funcionalidades Principais
 
@@ -24,9 +21,13 @@ O MyFinance Web é uma aplicação web que permite aos usuários gerenciar suas 
 * CRUD de Plano de Contas
 * Atributos: Descrição e Tipo (receita ou despesa)
 
+![Screenshot](docs/tela_plano.png)
+
 2. Transações Financeiras
 * Registrar as transações financeiras do dia
 * Atributos: Data da Transação, Valor, Plano de Conta e Histórico
+
+![Screenshot](docs/tela_transacao.png)
 
 ## Tecnologias Utilizadas
 
@@ -35,9 +36,11 @@ O MyFinance Web é uma aplicação web que permite aos usuários gerenciar suas 
 3. Banco de Dados: SQL-Server
 
 
-
 ## Clone o repositório
+
+```
 git clone https://github.com/julianopucmg/myfinance-web-dotnet
+```
 
 ## Instalação
 
@@ -64,8 +67,7 @@ var connectionString = "Server=localhost;Database=myfinance;Trusted_Connection=T
 ```
 
 
-
-## Execute a aplicação
+## Construir e Executar a aplicação
 ```
 dotnet build
 ```
